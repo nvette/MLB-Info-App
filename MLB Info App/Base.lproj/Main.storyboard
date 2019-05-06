@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Third View Controller-->
         <scene sceneID="p63-3h-wuE">
             <objects>
-                <viewController id="CZ6-xF-aGE" sceneMemberID="viewController">
+                <viewController id="CZ6-xF-aGE" customClass="ThirdViewController" customModule="MLB_Info_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mLi-sj-xYC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -109,7 +109,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="42c-ex-Vjg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="23" y="-568"/>
+            <point key="canvasLocation" x="116" y="-576"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -155,12 +155,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-498.39999999999998" y="98.50074962518741"/>
+            <point key="canvasLocation" x="-729" y="99"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="pHH-dd-5WC">
             <objects>
-                <viewController id="acd-x9-RPP" sceneMemberID="viewController">
+                <viewController id="acd-x9-RPP" customClass="SecondViewController" customModule="MLB_Info_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vV3-IG-hJB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -170,7 +170,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XG0-mu-rPX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="164" y="99"/>
+            <point key="canvasLocation" x="116" y="99"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="uXx-N4-UAs">
@@ -188,7 +188,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e0A-8T-tdB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1196" y="99"/>
+            <point key="canvasLocation" x="-1545" y="99"/>
         </scene>
     </scenes>
     <resources>
