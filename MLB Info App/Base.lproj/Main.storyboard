@@ -17,6 +17,128 @@
                     <view key="view" contentMode="scaleToFill" id="mLi-sj-xYC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mPi-8A-0zr">
+                                <rect key="frame" x="15" y="136" width="49" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Orioles"/>
+                                <connections>
+                                    <action selector="teamOne:" destination="CZ6-xF-aGE" eventType="touchUpInside" id="Wef-gx-iLD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7b6-bJ-ebA">
+                                <rect key="frame" x="11" y="174" width="56" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Red Sox"/>
+                                <connections>
+                                    <action selector="teamTwo:" destination="CZ6-xF-aGE" eventType="touchUpInside" id="rTR-Yy-x2u"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ye8-OO-dGg">
+                                <rect key="frame" x="4" y="212" width="70" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="White Sox"/>
+                                <connections>
+                                    <action selector="teamThree:" destination="CZ6-xF-aGE" eventType="touchUpInside" id="SEt-0N-4Ik"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rnh-fE-2d1">
+                                <rect key="frame" x="15" y="250" width="49" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Indians"/>
+                                <connections>
+                                    <action selector="teamFour:" destination="CZ6-xF-aGE" eventType="touchUpInside" id="jmS-JE-lB2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Icy-D3-DRA">
+                                <rect key="frame" x="18" y="288" width="43" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Tigers"/>
+                                <connections>
+                                    <action selector="teamFive:" destination="CZ6-xF-aGE" eventType="touchUpInside" id="U6z-zS-8MS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z6s-7Q-yBK">
+                                <rect key="frame" x="308" y="250" width="57" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Rangers"/>
+                                <connections>
+                                    <action selector="teamtenFour:" destination="CZ6-xF-aGE" eventType="touchUpInside" id="3YI-ks-iHo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4R-A1-YP9">
+                                <rect key="frame" x="306" y="136" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Athletics"/>
+                                <connections>
+                                    <action selector="teamEleven:" destination="CZ6-xF-aGE" eventType="touchUpInside" id="ZUU-js-ZOL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVr-cd-Qm9">
+                                <rect key="frame" x="306" y="174" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Mariners"/>
+                                <connections>
+                                    <action selector="teamTwoTen:" destination="CZ6-xF-aGE" eventType="touchUpInside" id="1GO-Un-MTR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="84K-5X-wcF">
+                                <rect key="frame" x="320" y="212" width="33" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Rays"/>
+                                <connections>
+                                    <action selector="teamThreeTen:" destination="CZ6-xF-aGE" eventType="touchUpInside" id="Urg-4J-3YF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCj-2N-MNZ">
+                                <rect key="frame" x="159" y="288" width="57" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Yankees"/>
+                                <connections>
+                                    <action selector="teamTen:" destination="CZ6-xF-aGE" eventType="touchUpInside" id="SVj-jc-L54"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Unk-kF-amC">
+                                <rect key="frame" x="167" y="250" width="40" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Twins"/>
+                                <connections>
+                                    <action selector="teamNine:" destination="CZ6-xF-aGE" eventType="touchUpInside" id="6O6-kx-drp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F0u-8K-i26">
+                                <rect key="frame" x="165" y="136" width="44" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Astros"/>
+                                <connections>
+                                    <action selector="teamSix:" destination="CZ6-xF-aGE" eventType="touchUpInside" id="Yob-Ey-tj0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hYh-C5-eE2">
+                                <rect key="frame" x="165" y="174" width="45" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Royals"/>
+                                <connections>
+                                    <action selector="teamSeven:" destination="CZ6-xF-aGE" eventType="touchUpInside" id="oCv-88-pMM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oxY-rJ-2P8">
+                                <rect key="frame" x="164" y="212" width="47" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Angels"/>
+                                <connections>
+                                    <action selector="teamEight:" destination="CZ6-xF-aGE" eventType="touchUpInside" id="JwB-zo-AvG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ojM-W6-8YT">
+                                <rect key="frame" x="302" y="288" width="69" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" Blue Jays"/>
+                                <connections>
+                                    <action selector="teamTenFive:" destination="CZ6-xF-aGE" eventType="touchUpInside" id="4Tx-wS-Qmv"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Ryc-O0-MpN"/>
                     </view>
