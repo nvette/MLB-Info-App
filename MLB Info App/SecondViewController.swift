@@ -13,7 +13,7 @@ class SecondViewController: UIViewController {
   let diamondbacks = URL(string: "https://www.mlb.com/dbacks" )
   let braves = URL(string: "https://www.mlb.com/braves")
   let cubs = URL(string: "https://www.mlb.com/cubs")
-let reds = URL(string: "https://www.mlb.com/reds")
+  let reds = URL(string: "https://www.mlb.com/reds")
  let rockies = URL(string: "https://www.mlb.com/rockies")
  let dodgers = URL(string: "https://www.mlb.com/dodgers")
  let marlins = URL(string: "https://www.mlb.com/marlins")

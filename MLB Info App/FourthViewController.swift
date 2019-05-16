@@ -9,22 +9,38 @@
 import UIKit
 
 class FourthViewController: UIViewController {
-
+    @IBOutlet weak var guessTeam: UITextField!
+    @IBOutlet weak var textView: UITextView!
+    let teams = ["Rays","Yankees", "Red Sox", "Twins", "Phillies", "Cubs", "Orioles", "Dodgers", "Mets", "Astros", "Mariners", "Reds", "Nationals", "Diamondbacks", "Blue Jays", "Indians", "White Sox", "Cardnials", "Marlins", "Braves", "Rangers", "Pirates", "Angels", "Brewers", "Rockies", "Tigers", "Giants", "Padres", "Athletics", "Royals"]
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func checkTeam(_ sender: Any) {
+        let guess = Int(guessTeam.text!)!
+        textView.text = teams[guess] 
+       guessTeam.text = ""
+        
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     }
-    */
+    
+    
 
-}
+
